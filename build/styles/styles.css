@@ -260,7 +260,7 @@ body {
 
 /* Hit points */
 
-.character-box{
+.character-box, .booster-box {
   position: relative;
 }
 
@@ -295,4 +295,26 @@ body {
   display: none;
   font-weight: 900;
   color: #32CD32;
+}
+
+/*hover effect */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
 }
